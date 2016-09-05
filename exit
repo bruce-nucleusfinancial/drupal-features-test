@@ -1,0 +1,381 @@
+[33mcommit 926a43480c731b42bf34c04b8f74b59c4e1a6e13[m
+Author: Nathaniel Catchpole <catch@35733.no-reply.drupal.org>
+Date:   Thu Sep 1 12:54:59 2016 +0100
+
+    Issue #2792817 by Wim Leers, dawehner: BigPipe decorates html_response.attachments_processor, but uses an inner name based on the decorated service, which can cause problems
+    
+    (cherry picked from commit b9aa30a03179a09d17612a8a135ebc971c8378ac)
+
+[33mcommit 85820594e45fb3e82f9d9ef3e01bda816551a4b4[m
+Author: Nathaniel Catchpole <catch@35733.no-reply.drupal.org>
+Date:   Thu Sep 1 12:29:43 2016 +0100
+
+    Issue #2560795 by chx, alexpott, mikeryan, phenaproxima, penyaskito, willwh, generalredneck, benjy: Source plugins have a hidden dependency on migrate_drupal
+    
+    (cherry picked from commit 4bd0cdc059bd4b0bf63c5a32e94d0b2109632ab0)
+
+[33mcommit 89f13eda2015d76bf1513eebc92ab8d55f02aa28[m
+Author: Alex Pott <alex.a.pott@googlemail.com>
+Date:   Wed Aug 31 16:17:03 2016 -0500
+
+    Issue #2793091 by alexpott, neclimdul: Refactor EntityFile "unit" test fails
+    
+    (cherry picked from commit f90c2462a88c04ebda18b26be1b284444ae5f6fc)
+
+[33mcommit e5824c36a996caed03fa71e685a3eaa132358830[m
+Author: webchick <drupal@webchick.net>
+Date:   Wed Aug 31 12:16:46 2016 -0700
+
+    Issue #2739079 by DyanneNova, akalata, webchick, tkoleary, pwolanin, SKAUGHT, elliotc, lizzjoy, YesCT, yoroy, miwayha: Create a validated design for Block Place module
+
+[33mcommit 2c9fd47d2c173adf0a40aa055deed9c16689f822[m
+Author: webchick <drupal@webchick.net>
+Date:   Wed Aug 31 11:52:11 2016 -0700
+
+    Issue #2786459 by tedbow, nod_, martin107, tkoleary, droplet, drpal: "Offcanvas" tray should be using the existing dialog system
+
+[33mcommit 6a386015add84678d2025e743c597324adcb31be[m
+Author: Alex Pott <alex.a.pott@googlemail.com>
+Date:   Wed Aug 31 11:28:22 2016 -0500
+
+    Issue #2787619 by hussainweb, phenaproxima, alexpott: CckMigration does not type hint CckPluginManager correctly
+    
+    (cherry picked from commit 0d74926e90cbca70dc68bbc79ba5bcebceeca822)
+
+[33mcommit f3de7e6845f496209d1f9ce50cc74ab55542c667[m
+Author: Alex Pott <alex.a.pott@googlemail.com>
+Date:   Wed Aug 31 09:24:18 2016 -0500
+
+    Issue #2695297 by mikeryan, ohthehugemanatee, quietone, vasi, Sharique, chx, benjy, phenaproxima, heddn, benjifisher: Refactor EntityFile and use process plugins instead
+    
+    (cherry picked from commit 78714b90d6ad24d2d37c29a3b48eee298668865a)
+
+[33mcommit d639691658818aa8abd5de2e2b7c46a569789711[m
+Author: Alex Pott <alex.a.pott@googlemail.com>
+Date:   Wed Aug 31 09:20:37 2016 -0500
+
+    Issue #2792831 by mkalkbrenner: YamlSymfonyTest must not require PHP yaml extension
+    
+    (cherry picked from commit f25150623a3e33c17ac7d7aa032ca229576738c2)
+
+[33mcommit 0a3ce8b01190a935cefaf6bdc0e9f8738214d780[m
+Author: Alex Pott <alex.a.pott@googlemail.com>
+Date:   Wed Aug 31 09:18:42 2016 -0500
+
+    Issue #2618332 by phenaproxima, jonhattan, rakesh.gectcr, mikeryan, neclimdul: Better handle replacement of missing filters with filter_null
+    
+    (cherry picked from commit ae25829c5453190f8cdc1e90a2bee58efc0a2e03)
+
+[33mcommit b5b2356f1d99340ac76d7a03f0d12b397928359e[m
+Author: Nathaniel Catchpole <catch@35733.no-reply.drupal.org>
+Date:   Tue Aug 30 14:34:08 2016 +0100
+
+    Issue #2642260 by gnuget, gargsuchi, naveenvalecha, dinarcon: Missing URL fragment for the comment's title link
+    
+    (cherry picked from commit 0515e65bd52b28de736abae4aa2aeb501953ffb6)
+
+[33mcommit 440888e3f5141418b33440268fff43f9f01766a2[m
+Author: Nathaniel Catchpole <catch@35733.no-reply.drupal.org>
+Date:   Tue Aug 30 14:25:44 2016 +0100
+
+    Issue #2792133: Quickfix: Undo inadvertent aggregator test fixture changes
+    
+    (cherry picked from commit df34f696f0545e36036df4fd9601fee2d61404c2)
+
+[33mcommit f68d6fa1d7bfd1f8ca5aad8ef43f20de4fd66e4e[m
+Author: Nathaniel Catchpole <catch@35733.no-reply.drupal.org>
+Date:   Tue Aug 30 11:56:56 2016 +0100
+
+    Issue #2791955 by larowlan: Convert \Drupal\node\Tests\NodeAccessTest to a KernelTest
+    
+    (cherry picked from commit 29133d322004d0bf8052331400c10114428bc5a1)
+
+[33mcommit 460508f75f9d851d84f66f7ccb59898f671d5bac[m
+Author: Nathaniel Catchpole <catch@35733.no-reply.drupal.org>
+Date:   Mon Aug 29 21:13:48 2016 +0100
+
+    Issue #202783 by evgeny.chernyavskiy, jrdixey, YesCT, subhojit777, adinac, jeet09, gaurav_varshney, alansaviolobo, Devin Carlson, chetan2111, beanworks, phantomvish: Use a consistent name for the aggregator module throughout core
+    
+    (cherry picked from commit 5b5f56d03a3cbe6be53c92ea37901995102a5796)
+
+[33mcommit 3cd6347f18e6f12e0111318e8c936df3f141289c[m
+Author: Alex Pott <alex.a.pott@googlemail.com>
+Date:   Mon Aug 29 10:40:17 2016 -0500
+
+    Issue #2428509 by andypost, rahul.shinde, emma.maria: Comment links weight should be managed by view display
+    
+    (cherry picked from commit 89df46f5d2570032466fc1d5350686a45c0688df)
+
+[33mcommit 4607ba0739f6d1661e7e5f030813d6cf920a3c8e[m
+Author: Alex Pott <alex.a.pott@googlemail.com>
+Date:   Mon Aug 29 07:42:08 2016 -0500
+
+    Issue #2787639 by hussainweb: MigrateCckFieldPluginManager mixes up its behaviour for creating and loading definitions
+    
+    (cherry picked from commit cea3af0f9441266a5490b8d754435a4488a3eb62)
+
+[33mcommit f16fafc7ce49c82c31fe256954fc0f9d839a2ce2[m
+Author: Alex Pott <alex.a.pott@googlemail.com>
+Date:   Mon Aug 29 07:10:50 2016 -0500
+
+    Issue #2788343 by mikeker: Entity Reference error message has "@value (@id)" in it
+    
+    (cherry picked from commit 06da519507332138db6b1f82d4c3d539bdc818a3)
+
+[33mcommit 482ae5084ede0a3306b97af15aef21c5f4d4cdff[m
+Author: Alex Pott <alex.a.pott@googlemail.com>
+Date:   Mon Aug 29 06:56:46 2016 -0500
+
+    Issue #2764699 by catch, lainosantos: class "Drupal\user\UserServiceProvider" not found
+    
+    (cherry picked from commit bfd9b82de8d13170a2e95e51c39f4d52a9f5cacf)
+
+[33mcommit c88ad1f417b44fb7773b0d0349a5d9b4b34374f2[m
+Author: Alex Pott <alex.a.pott@googlemail.com>
+Date:   Mon Aug 29 06:54:16 2016 -0500
+
+    Issue #2791335 by pwolanin: Optimize repeated method call in  PlaceBlockPageVariant::build, use service instead of direct query string
+    
+    (cherry picked from commit 2acb2aa08ea89a7d5e6396ca8c2868073988713d)
+
+[33mcommit 0a4018b859d34101cb2f20d6d2310f2b49bdba2a[m
+Author: Alex Pott <alex.a.pott@googlemail.com>
+Date:   Mon Aug 29 06:50:59 2016 -0500
+
+    Issue #2721901 by Mile23, anoopjohn: Fix Drupal.Commenting.FunctionComment.MissingParamName
+    
+    (cherry picked from commit a7b67e7af18b6a91ac4187c439f28d63a6fc1113)
+
+[33mcommit 0882f3014842acaa515a7f9b8b0e5c450a333343[m
+Author: Nathaniel Catchpole <catch@35733.no-reply.drupal.org>
+Date:   Mon Aug 29 08:59:27 2016 +0100
+
+    Issue #2783117 by eloiv: views.api.php variable $view->name does not exist
+    
+    (cherry picked from commit 17cd892003527ee99216519fc349728a35cf2d87)
+
+[33mcommit a7e09eb2f503aae5fd8544aee5e28fee11021b4c[m
+Author: Nathaniel Catchpole <catch@35733.no-reply.drupal.org>
+Date:   Mon Aug 29 08:44:55 2016 +0100
+
+    Issue #2777451 by markdorison, er.pushpinderrana, alexpott: @see references not forming links in documentation
+    
+    (cherry picked from commit d262018e7ce0e267116a1974de9e6f22549e24b3)
+
+[33mcommit 92adca5286c6705917895aa10d524794904233ba[m
+Author: Nathaniel Catchpole <catch@35733.no-reply.drupal.org>
+Date:   Mon Aug 29 08:04:46 2016 +0100
+
+    Issue #2779807 by jhedstrom: Bring RestExport::buildResponse into line with Feed::buildResponse
+    
+    (cherry picked from commit 2a43f31fb73ba130a8b77ce729bba4340839c811)
+
+[33mcommit 65598a55a61ebb624a80f1fc64da731e31de2280[m
+Author: Nathaniel Catchpole <catch@35733.no-reply.drupal.org>
+Date:   Mon Aug 29 07:56:30 2016 +0100
+
+    Issue #2786195 by larowlan: Deleted block is not removed from the block list
+    
+    (cherry picked from commit 4221911a946addec5b9c005b1de37cdaa2736b54)
+
+[33mcommit 27ca9e4be8bd75680f2b28d1151566af5f9cac47[m
+Author: Nathaniel Catchpole <catch@35733.no-reply.drupal.org>
+Date:   Sun Aug 28 22:20:49 2016 +0100
+
+    Revert "Issue #2786195 by larowlan: Deleted block is not removed from the block list"
+    
+    This reverts commit 82bece91c3a3b28c25c8dc3817188a87b1942a14.
+    
+    (cherry picked from commit c90b15c774a35c52da5451ec9443ba4776a695da)
+
+[33mcommit 6154353f6a089d79895f28791037f7b75d2317f5[m
+Author: Nathaniel Catchpole <catch@35733.no-reply.drupal.org>
+Date:   Sun Aug 28 22:11:52 2016 +0100
+
+    Issue #2490290 by willzyx, Mile23, alexpott, tim.plunkett: Subclasses of EntityListBuilder incorrectly override the #empty message
+    
+    (cherry picked from commit f37eba61fcfa6cb5cf1795a32d7415e486b4a7d6)
+
+[33mcommit 9d0adb4366af56461fe920234d88697c665bcf30[m
+Author: Nathaniel Catchpole <catch@35733.no-reply.drupal.org>
+Date:   Sun Aug 28 18:18:27 2016 +0100
+
+    Issue #2572801 by alexpott, vprocessor, andriyun, andypost, chishah92, Mile23, attiks, hussainweb, klausi, dawehner, pfrenssen: Fix 'Drupal.WhiteSpace.ScopeIndent' coding standard
+
+[33mcommit c39da9625adb693c80debc5cb88eb3522ecc3d13[m
+Author: Nathaniel Catchpole <catch@35733.no-reply.drupal.org>
+Date:   Sun Aug 28 17:53:57 2016 +0100
+
+    Issue #2782009 by alexpott, swentel, reblutus: Create a field with the same name as one being purged results in data destruction of the new field
+    
+    (cherry picked from commit b6a64fc02d12603a067e8715d766424bccc92146)
+
+[33mcommit 53b5df5d702fa8d089fab2d27c3dd812a4087fc0[m
+Author: Alex Pott <alex.a.pott@googlemail.com>
+Date:   Sun Aug 28 06:25:45 2016 -0500
+
+    Issue #2783395 by Mile23: Fix 'Drupal.Commenting.FunctionComment.InvalidReturn' coding standard
+    
+    (cherry picked from commit 2e5e060c5354cc05022d17b0f6640aa853dbc48f)
+
+[33mcommit 66fa7bee141c9d4527d07c35623288fc5657f3e8[m
+Author: Alex Pott <alex.a.pott@googlemail.com>
+Date:   Sun Aug 28 06:22:28 2016 -0500
+
+    Issue #2786195 by larowlan: Deleted block is not removed from the block list
+    
+    (cherry picked from commit 6bdf44e84fdde0c5897f2b236ed7ea622ead4044)
+
+[33mcommit 2a4eab999da6f2c33c471ddf23c648e7e2f1efbd[m
+Author: Alex Pott <alex.a.pott@googlemail.com>
+Date:   Fri Aug 26 12:37:15 2016 -0500
+
+    Issue #2771547 by Lendude, klausi, dawehner, alexpott, pwolanin: In Browser and FunctionalJavascript tests SIMPLETEST_USER_AGENT cookie needs to be set every 5 seconds
+    
+    (cherry picked from commit ee38d6f72a157568f4f1684822770f7b7ae2d7f8)
+
+[33mcommit 3b755dce26c76c652c0205f8e35d9d8b88036a49[m
+Author: xjm <xjm@65776.no-reply.drupal.org>
+Date:   Fri Aug 26 09:28:15 2016 -0500
+
+    Back to dev.
+
+[33mcommit 5899fe1f5b0f9c1f9feaa893f5ead14955d6231c[m
+Author: xjm <xjm@65776.no-reply.drupal.org>
+Date:   Fri Aug 26 09:28:15 2016 -0500
+
+    Drupal 8.2.0-beta3
+
+[33mcommit 7c11b0f4be2c41448851a7cabfb5cbf5d857d38e[m
+Author: Alex Pott <alex.a.pott@googlemail.com>
+Date:   Fri Aug 26 14:26:55 2016 +0100
+
+    Issue #2213671 by jhedstrom, richardcanoe, andypost, david_garcia, Antonnavi, dagmar, aleevas, dawehner, alexpott: Log completely unusable when an entry has corrupt serialized data
+    
+    (cherry picked from commit 72c887b8f3c338dc05d56e6b2151b2c8ca9bad91)
+
+[33mcommit f73729a3c9bd634d8bf2602ec53d247c8dddced7[m
+Author: Alex Pott <alex.a.pott@googlemail.com>
+Date:   Fri Aug 26 14:22:16 2016 +0100
+
+    Issue #2706951 by Jo Fitzgerald: Field instance migration rollback fails
+    
+    (cherry picked from commit 7f5305b02629a9e79b25d506d949637629b939c4)
+
+[33mcommit 1c4857d59bb87f3255bda99cb97d576849d0fd06[m
+Author: Alex Pott <alex.a.pott@googlemail.com>
+Date:   Fri Aug 26 14:20:00 2016 +0100
+
+    Issue #2706947 by Jo Fitzgerald: Field migration rollback fails
+    
+    (cherry picked from commit 65898a54a61865c4badf8d2cda97e17731a4976e)
+
+[33mcommit 703ae9559fb94988e0b597f16ef3c09f78366f92[m
+Author: Alex Pott <alex.a.pott@googlemail.com>
+Date:   Fri Aug 26 14:15:50 2016 +0100
+
+    Issue #2705531 by Jo Fitzgerald: View mode migration rollback fails
+    
+    (cherry picked from commit fd8e8afc1649ae8232d7d7a75a227f57d163ba09)
+
+[33mcommit e0974d4f45db26e4c5302322b221bd3bca9f8399[m
+Author: Alex Pott <alex.a.pott@googlemail.com>
+Date:   Fri Aug 26 14:13:05 2016 +0100
+
+    Issue #2788487 by timmillwood: Manage moderation tab not displaying on bundle admin
+    
+    (cherry picked from commit 57bbb6f5655438b3dcdeae7a351db120fb52a5b2)
+
+[33mcommit 5115c5bc1f0ead4d7baf41834ae6518008000874[m
+Author: Alex Pott <alex.a.pott@googlemail.com>
+Date:   Fri Aug 26 14:08:33 2016 +0100
+
+    Issue #2785241 by quietone, Gábor Hojtsy: Add a translated node to d7_dump
+    
+    (cherry picked from commit 437ebf7c4f2266e543c99b8db4a4d140751d392f)
+
+[33mcommit 6c985db62c7bb22f1a80062fba8434bd2567fb33[m
+Author: xjm <xjm@65776.no-reply.drupal.org>
+Date:   Thu Aug 25 20:56:23 2016 -0500
+
+    Issue #2161337 by mpdonadio, darrick, swentel, effulgentsia, YesCT, xjm, Berdir, tim.plunkett, pguillard, SKAUGHT, sylus, jonathanjfshaw, FluxSauce, DuneBL, jhedstrom, dawehner, generalredneck, pjonckiere, borisson_, Gábor Hojtsy, webchick, miwayha: Add a Date Range field type with support for end date
+    
+    (cherry picked from commit b1656002753f0f01a72d5a0b390eaaadae3b1e3a)
+
+[33mcommit 3756e8de14d489ff95128ca56b8f96239f599f60[m
+Author: Dries <dries@buytaert.net>
+Date:   Thu Aug 25 20:43:54 2016 +0200
+
+    Issue #2783483: Make Scott Reeves (Cottser) a full core committer for Drupal 8
+    
+    (cherry picked from commit 7a3fa2bc2efc095c210fd2b1cdc54ef8cf43efc1)
+
+[33mcommit bdf69f9ca0260ca5ef7a93adca9e9276894f10d2[m
+Author: Alex Pott <alex.a.pott@googlemail.com>
+Date:   Thu Aug 25 11:04:13 2016 +0100
+
+    Issue #2780093 by Mile23: Have simpletest, run-tests.sh enforce their dependency on PHPUnit
+    
+    (cherry picked from commit b8500a93102df90a32e5a80369efae20f3fb7029)
+
+[33mcommit 7e9c84115163a37913c6abcd09a70b0d1d171063[m
+Author: Alex Pott <alex.a.pott@googlemail.com>
+Date:   Tue Aug 23 20:08:53 2016 +0100
+
+    Issue #2705823 by Lendude, Crell: BulkForm reports incorrect count
+    
+    (cherry picked from commit 971a73c6bad0a2b2c1ce147e7b48870bcb80ffc9)
+
+[33mcommit ad2227bf57c9e395fddfc5c29d770572003ac857[m
+Author: Alex Pott <alex.a.pott@googlemail.com>
+Date:   Tue Aug 23 20:06:45 2016 +0100
+
+    Issue #2782967 by mikeker: FormTest::testFieldFormUnlimitedRequired claims to test for visually-hidden, but doesn't
+    
+    (cherry picked from commit 73306d92f4ae75ff141e3d54eb2769dbb2a365ee)
+
+[33mcommit 9d70c6a7fcb24ff07a286f0ab87e99ee71800c41[m
+Author: Alex Pott <alex.a.pott@googlemail.com>
+Date:   Tue Aug 23 19:12:33 2016 +0100
+
+    Issue #2784677 by GoZ: Move core/modules/simpletest/tests/src/Functional/BrowserTestBaseTest.php to core/tests/Drupal/FunctionalTests/BrowserTestBaseTest.php
+    
+    (cherry picked from commit 42828511837af9acdda35772ae34861b579adfe9)
+
+[33mcommit f7bd3891b0ff8b1d68158d0255680c2404841d88[m
+Author: Alex Pott <alex.a.pott@googlemail.com>
+Date:   Tue Aug 23 18:53:35 2016 +0100
+
+    Issue #2770817 by Lendude: Add javascript testing for sorting AJAX enabled views
+    
+    (cherry picked from commit 425b58b630dfd8d95e75ebd566153aa9d457357e)
+
+[33mcommit 2495e7bb5a5fb5f4cd67cd8b8df8dc41c60159d6[m
+Author: Alex Pott <alex.a.pott@googlemail.com>
+Date:   Tue Aug 23 18:33:26 2016 +0100
+
+    Issue #2747177 by markdorison, chx, Sonal.Sangale, andypost, joachim, Berdir, eojthebrave: Add docs on possible values of $operation in hook_entity_field_access()
+    
+    (cherry picked from commit 71ca3778a68dcc70ce5d612bb611f4e7c16f6fa7)
+
+[33mcommit a3c47f38f24d80cb020e78a6426c0ba57d7e5144[m
+Author: Alex Pott <alex.a.pott@googlemail.com>
+Date:   Tue Aug 23 18:26:56 2016 +0100
+
+    Issue #2549801 by quietone, balagan, lostkangaroo, pingers, martins.kajins, phenaproxima, scuba_fly, penyaskito: Improve source provider missing exception message
+    
+    (cherry picked from commit 7d6e615f1e2f778aa4d811983d32ca6248e9b417)
+
+[33mcommit de65a87344d24c87f174097c238601aa0a6b0610[m
+Author: Nathaniel Catchpole <catch@35733.no-reply.drupal.org>
+Date:   Tue Aug 23 08:43:52 2016 +0100
+
+    Issue #2776357 by alexpott: Upgrade path for Config translation synchronization failure
+    
+    (cherry picked from commit 1ba97fcf577de9508e3ff2081e43c16032bc1fd3)
+
+[33mcommit 3598a0ba859420ca3573e746d862ece466a57b29[m
+Author: Nathaniel Catchpole <catch@35733.no-reply.drupal.org>
+Date:   Mon Aug 22 17:10:39 2016 +0100
+
+    Issue #2787577 by alexpott, daw
