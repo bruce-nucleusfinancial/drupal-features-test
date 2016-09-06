@@ -1,0 +1,13 @@
+name: 'super content'
+description: 'Provides super content content type and related configuration. super content description'
+type: module
+core: 8.x
+dependencies:
+  - bruce_bundle_bundle_test_1
+  - field
+  - menu_ui
+  - node
+  - path
+  - text
+  - user
+  - views

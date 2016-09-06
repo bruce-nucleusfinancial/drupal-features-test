@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_super_name
+    - node.type.super_content
+id: node.super_content.field_super_name
+field_name: field_super_name
+entity_type: node
+bundle: super_content
+label: 'super name'
+description: 'Add your super name here'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
