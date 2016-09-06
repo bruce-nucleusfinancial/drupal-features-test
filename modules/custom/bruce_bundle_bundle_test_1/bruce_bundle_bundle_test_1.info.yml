@@ -1,0 +1,26 @@
+name: 'Bundle Test 1'
+description: 'testing select all components'
+type: module
+core: 8.x
+dependencies:
+  - block
+  - block_content
+  - comment
+  - contact
+  - features
+  - field
+  - file
+  - filter
+  - help
+  - image
+  - node
+  - search
+  - shortcut
+  - system
+  - taxonomy
+  - text
+  - tour
+  - user
+  - views
+  - views_ui
+package: bruce-bundle
