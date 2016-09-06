@@ -3,6 +3,7 @@ description: 'Provide User related configuration.'
 type: module
 core: 8.x
 dependencies:
+  - bruce_bundle_bundle_test_1
   - field
   - file
   - image

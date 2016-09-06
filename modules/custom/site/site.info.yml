@@ -4,6 +4,7 @@ type: module
 core: 8.x
 dependencies:
   - block_content
+  - bruce_bundle_bundle_test_1
   - ckeditor
   - contact
   - editor
