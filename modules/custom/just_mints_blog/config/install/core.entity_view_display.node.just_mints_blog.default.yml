@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.just_mints_blog.body
+    - field.field.node.just_mints_blog.field_stuff
+    - node.type.just_mints_blog
+  module:
+    - text
+    - user
+id: node.just_mints_blog.default
+targetEntityType: node
+bundle: just_mints_blog
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+  field_stuff:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+  links:
+    weight: 100
+hidden: {  }

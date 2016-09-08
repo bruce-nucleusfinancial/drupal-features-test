@@ -1,0 +1,12 @@
+name: 'just mints blog'
+description: 'Provides just mints blog content type and related configuration. '
+type: module
+core: 8.x
+dependencies:
+  - bruce_bundle_bundle_test_1
+  - field
+  - menu_ui
+  - node
+  - path
+  - text
+  - user
